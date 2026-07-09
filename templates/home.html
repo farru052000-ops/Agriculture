@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OptiCrop - Smart Crop Recommendation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <header>
+        <h1>🌱 OptiCrop</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/findyourcrop">Find Your Crop</a>
+            <a href="/about">About</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+
+        <h2>AI Powered Crop Recommendation System</h2>
+
+        <p>
+            OptiCrop helps farmers choose the most suitable crop based on
+            soil nutrients and environmental conditions using Machine Learning.
+        </p>
+
+        <a href="/findyourcrop" class="btn">
+            Find Your Crop
+        </a>
+
+    </section>
+
+    <section class="features">
+
+        <div class="card">
+            <h3>🌾 Smart Prediction</h3>
+            <p>
+                Predict the most suitable crop using AI and Machine Learning.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🌦 Weather Factors</h3>
+            <p>
+                Uses temperature, humidity, pH, and rainfall for prediction.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🧪 Soil Analysis</h3>
+            <p>
+                Considers Nitrogen (N), Phosphorus (P), and Potassium (K).
+            </p>
+        </div>
+
+    </section>
+
+</body>
+</html>
